@@ -8,7 +8,6 @@ int main()
 	int i, j, temp;
 	int arr[100];
 
-
 	srand((unsigned)time(NULL));
 
 	while ((n <= 1) || (n > 100))
