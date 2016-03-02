@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <time.h>
-#include <stdlib.h>
+#include <stdlib.h> //BubbleSort
 
 int main()
 {
@@ -25,7 +25,7 @@ int main()
 	}
 
 
-	for (j = 0; j < n - 1; j++)
+	for (j = 0; j < n - 1; j++) //Sorting Algorithm
 	{
 		for (i = n - 1; i > j; i--)
 		{
