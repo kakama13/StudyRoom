@@ -70,7 +70,7 @@ int main()
 		if (strike == 3)
 		{
 			printf("  3 Strikes!\n");
-			printf("  Congratulations! Yon Won!\n");
+			printf("  Congratulations! You Won!\n");
 			printf("  You used %d chances.\n", count);
 			break;
 		}
