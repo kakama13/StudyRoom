@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdlib.h>
 
-void swap(int * a, int *b);
+void swap(int *a, int *b);
 
 void selectsort(int *arr, int n);
 

@@ -24,7 +24,7 @@ int main()
 		printf("%d ", arr[i]);
 	}
 
-	
+	 
 
 	for (i = 0; i < n - 1; i++)
 	{

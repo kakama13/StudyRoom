@@ -14,13 +14,11 @@ int main()
 	printf("How many do you want to sort? ");
 	scanf_s("%d", &N);
 
-
 	for (i = 0; i < N; i++)
 	{
 		arr[i] = rand() % 10000 + 1;
 		printf("%d ", arr[i]);
 	}
-
 
 	for (i = 1; i < N ; i++)
 	{
@@ -38,14 +36,9 @@ int main()
 
 		arr[j + 1] = A;
 
-
 		for (j = 0; j < N; j++)
 			printf("%d ", arr[j]);
-
 	}
-
-
-
 
 	return 0;
 }

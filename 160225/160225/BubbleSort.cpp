@@ -5,7 +5,7 @@
 int main()
 {
 	int n = 0;
-	int i, j, temp;
+	int i, j, z, temp;
 	int arr[100];
 
 	srand((unsigned)time(NULL));
@@ -24,6 +24,7 @@ int main()
 		printf("%d ", arr[i]);
 	}
 
+	printf("\n");
 
 	for (j = 0; j < n - 1; j++) //Sorting Algorithm
 	{
@@ -35,11 +36,11 @@ int main()
 				arr[i - 1] = arr[i];
 				arr[i] = temp;
 			}
+			for (z = 0; z < n; z++)
+				printf("%d ", arr[z]);
+			printf("\n");
 		}
-
-
 	}
-
 
 	for (i = 0; i < n; i++)
 	{
