@@ -17,5 +17,7 @@ int main()
 
 void swap(int *arr)
 {
-	*(arr+4) = *(arr + 1);
+	int j = 4;
+
+	arr[j] = *(arr + 1);
 }
