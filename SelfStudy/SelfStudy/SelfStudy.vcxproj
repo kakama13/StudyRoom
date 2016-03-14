@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{06DC8E3B-B46C-453B-BD30-5253B61D80AB}</ProjectGuid>
+    <ProjectGuid>{8BB14684-E505-447B-804A-4D25D66D69E4}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>My160303_2_SelectionSort</RootNamespace>
+    <RootNamespace>SelfStudy</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -146,7 +146,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="SelectionSort.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

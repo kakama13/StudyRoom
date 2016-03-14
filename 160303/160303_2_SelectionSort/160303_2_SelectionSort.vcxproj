@@ -19,10 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{3CC06E47-3476-440B-BBAC-67143A3A9573}</ProjectGuid>
+    <ProjectGuid>{06DC8E3B-B46C-453B-BD30-5253B61D80AB}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>My160303_2_NumberOfNumber</RootNamespace>
+    <RootNamespace>My160303_2_SelectionSort</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <ProjectName>160303_SelectionSort</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -146,7 +147,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="NumberOfNumber.cpp" />
+    <ClCompile Include="SelectionSort.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
