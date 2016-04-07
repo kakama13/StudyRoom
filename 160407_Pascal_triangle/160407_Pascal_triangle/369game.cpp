@@ -18,8 +18,8 @@ int main()
 		if (i % 3 == 0) count++;
 		else count += decide(i);
 
-		printf("%d ", i);
-		printf("Clap count : %d\n", count);
+		//printf("%d ", i);
+		//printf("Clap count : %d\n", count);
 
 	}
 
